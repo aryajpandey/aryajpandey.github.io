@@ -295,18 +295,18 @@ http://www.templatemo.com/tm-498-stimulus
               <h1>My Patent</h1>
               <p class="color-white">My ideas on AI Robots.</p>
          </div>
-         <div id="adobe-dc-view" style="height: 360px; width: 100%;"></div>
-            <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-            <script type="text/javascript">
-            document.addEventListener("adobe_dc_view_sdk.ready", function(){
-              var adobeDCView = new AdobeDC.View({clientId: "9706df3f14dc47dd834dc21c13707f81", divId: "adobe-dc-view"});
-              adobeDCView.previewFile({
-                content:{promise: "<FILE_BLOB_PROMISE>"},
-                metaData:{fileName: "<FILE_NAME>"}
-              }, {embedMode: "SIZED_CONTAINER", dockPageControls: false, showDownloadPDF: false,
-                showPrintPDF: false, showFullScreen: false});
-            });
-            </script>
+         <div id="adobe-dc-view" style="height: 360px; width: 500px;"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){
+		var adobeDCView = new AdobeDC.View({clientId: "9706df3f14dc47dd834dc21c13707f81", divId: "adobe-dc-view"});
+		adobeDCView.previewFile({
+			content:{promise: "<FILE_BLOB_PROMISE>"},
+			metaData:{fileName: "<FILE_NAME>"}
+		}, {embedMode: "SIZED_CONTAINER", dockPageControls: false, showDownloadPDF: false,
+			showPrintPDF: false});
+	});
+</script>
        </div>
      </div>
 </section>
