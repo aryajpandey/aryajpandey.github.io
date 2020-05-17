@@ -172,12 +172,17 @@ footer {
   background: #E3AE57;
 }
 
+
+
 .bg-white {
   background: #ffffff;
 }
 
 .bg-dark {
   background: #161616;
+}
+.bg-custom-blue{
+	background: #005b9f;
 }
 
 
