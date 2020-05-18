@@ -121,7 +121,7 @@ http://www.templatemo.com/tm-498-stimulus
                     <div class="skill-thumb">
                          <div class="wow fadeInUp section-title color-white" data-wow-delay="1.2s">
                               <h1>My Skills</h1>
-                              <p class="color-white">What I am proficience at</p>
+                              <p class="color-white">What I am proficient at</p>
                          </div>
 
                          <div class=" wow fadeInUp skills-thumb" data-wow-delay="1.6s">
@@ -293,19 +293,19 @@ http://www.templatemo.com/tm-498-stimulus
        <div class="patent">
          <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
               <h1>My Patent</h1>
-              <p class="color-white">My ideas on AI Robots.</p>
+              <p class="color-white">My idea.</p>
          </div>
-         <div id="adobe-dc-view" style="height: 500px; width: 100%;"></div>
-          <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-          <script type="text/javascript">
-          	document.addEventListener("adobe_dc_view_sdk.ready", function(){
-          		var adobeDCView = new AdobeDC.View({clientId: "<YOUR_CLIENT_ID>", divId: "adobe-dc-view"});
-          		adobeDCView.previewFile({
-          			content:{promise: "<FILE_BLOB_PROMISE>"},
-          			metaData:{fileName: "<FILE_NAME>"}
-          		}, {embedMode: "SIZED_CONTAINER"});
-          	});
-          </script>
+         <div id="adobe-dc-view" style="height: 360px; width: 100%;"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){
+		var adobeDCView = new AdobeDC.View({clientId: "<YOUR_CLIENT_ID>", divId: "adobe-dc-view"});
+		adobeDCView.previewFile({
+			content:{promise: "<FILE_BLOB_PROMISE>"},
+			metaData:{fileName: "<FILE_NAME>"}
+		}, {embedMode: "SIZED_CONTAINER", showDownloadPDF: false, showPrintPDF: false});
+	});
+</script>
        </div>
      </div>
 </section>
