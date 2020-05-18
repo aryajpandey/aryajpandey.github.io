@@ -459,7 +459,7 @@ a:hover, a:active, a:focus {
 }
 
 #experience small {
-  color: #633;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -525,7 +525,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #contact {
-  background: #E9724C;
+  background: #b71c1c;
 }
 
 #contact .contact-form,
@@ -551,7 +551,7 @@ a:hover, a:active, a:focus {
 #contact .form-control {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #005cb2;
+  border-bottom: 1px solid #fff;
   border-radius: 0px;
   box-shadow: none;
   color: #ffffff;
