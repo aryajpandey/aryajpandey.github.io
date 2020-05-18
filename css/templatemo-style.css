@@ -368,7 +368,8 @@ a:hover, a:active, a:focus {
   height: 100vh;
 }
 
-#home .home-thumb {
+.home-thumb {
+	background: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
