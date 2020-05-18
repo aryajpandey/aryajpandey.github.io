@@ -422,7 +422,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #service {
-  background: #E9724C;
+  background: #b71c1c;
 }
 
 #service p {
@@ -485,7 +485,7 @@ a:hover, a:active, a:focus {
 }
 
 #education small {
-  color: #886D1E;
+  color: #cddc39;
   font-weight: bold;
 }
 
